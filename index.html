@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Travel Web</title>
+    <link rel="icon" href="icono.png" type="image/png">
+    <meta name="description" content="Proyecto de diseño de una Travel Web con HTML y CSS">
+    <meta name="keywords" content="project,web,design,travel,html,css">
+    <meta name="author" content="Elias Leguizamon">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <!-- Top Bar -->
+        <div class="top-bar">
+            <div class="logo">
+                <a href="#"><img src="logo-full-color.png" alt="logo travel web" /></a>
+            </div>
+            <div class="icons">
+                <a href="#"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="512.000000pt" height="512.000000pt" viewBox="0 0 512.000000 512.000000" preserveAspectRatio="xMidYMid meet"><g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)" stroke="none"><path d="M2375 5114 c-369 -38 -643 -112 -932 -253 -259 -127 -452 -263 -661 -465 -225 -219 -376 -425 -511 -697 -185 -373 -266 -717 -266 -1139 0 -422 81 -766 266 -1139 134 -272 284 -475 510 -696 331 -323 722 -540 1169 -650 216 -53 364 -70 610 -70 413 0 758 79 1118 255 261 127 452 262 661 465 226 221 376 424 510 696 127 256 207 513 247 794 26 180 26 510 0 690 -66 466 -259 911 -552 1271 -97 120 -315 331 -434 420 -350 263 -747 431 -1175 495 -125 19 -463 33 -560 23z m1625 -1282 c0 -5 18 -21 40 -38 22 -16 52 -48 67 -71 15 -24 33 -43 40 -43 11 0 13 -207 13 -1120 0 -913 -2 -1120 -13 -1120 -7 0 -25 -19 -40 -42 -15 -24 -45 -56 -67 -72 -22 -17 -40 -33 -40 -38 0 -4 -645 -8 -1434 -8 l-1434 0 -37 34 c-20 19 -44 40 -54 48 -9 8 -31 32 -48 52 l-33 38 0 1108 0 1108 33 38 c17 20 39 43 47 50 8 7 31 29 50 47 l35 34 1438 2 c790 0 1437 -3 1437 -7z"/><path d="M1364 3491 c4 -5 40 -28 80 -50 41 -22 78 -45 81 -51 4 -6 21 -17 38 -25 18 -8 59 -33 92 -54 33 -22 88 -56 122 -76 34 -19 65 -40 68 -45 4 -6 21 -17 38 -25 18 -8 59 -33 92 -54 33 -22 87 -56 121 -75 34 -19 67 -42 74 -51 7 -8 17 -15 22 -15 5 0 36 -18 69 -40 33 -22 62 -40 64 -40 2 0 31 -18 64 -40 33 -22 64 -40 69 -40 5 0 15 -7 22 -15 7 -9 28 -23 46 -31 31 -15 37 -15 68 0 18 8 39 22 46 31 7 8 18 15 24 15 6 0 37 18 69 40 31 22 61 40 65 40 4 0 33 18 65 40 31 22 60 40 63 40 2 0 17 8 32 18 89 61 154 102 160 102 4 0 33 18 65 40 31 22 60 40 63 40 4 0 50 28 103 63 149 98 210 137 216 137 3 0 26 15 52 34 27 18 67 43 90 55 23 11 44 25 48 31 4 7 -385 10 -1195 10 -721 0 -1199 -4 -1196 -9z"/><path d="M1300 3147 c0 -7 0 -352 0 -767 l-1 -755 1261 0 1261 0 -1 764 c0 420 -1 765 -3 767 -4 4 -41 -18 -181 -107 -146 -93 -287 -179 -295 -179 -5 0 -14 -7 -21 -15 -6 -8 -40 -30 -73 -50 -85 -49 -94 -54 -160 -97 -32 -21 -61 -38 -66 -38 -4 0 -16 -9 -26 -20 -10 -11 -23 -20 -29 -20 -6 0 -37 -18 -69 -40 -31 -22 -60 -40 -63 -40 -2 0 -17 -8 -32 -18 -95 -65 -152 -101 -170 -106 -11 -4 -26 -13 -32 -21 -17 -20 -62 -19 -91 3 -29 20 -44 30 -126 77 -34 19 -65 40 -68 45 -4 6 -21 17 -38 25 -38 19 -55 28 -128 78 -31 20 -59 37 -62 37 -9 0 -96 60 -102 71 -4 5 -12 9 -20 9 -8 0 -51 25 -97 56 -45 31 -89 59 -97 62 -14 5 -67 38 -163 104 -15 10 -30 18 -34 18 -4 0 -27 15 -53 33 -25 18 -68 46 -96 61 -27 16 -59 36 -70 46 -28 24 -55 32 -55 17z"/></g></svg></a>
+                <a href="#"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="512.000000pt" height="512.000000pt" viewBox="0 0 512.000000 512.000000" preserveAspectRatio="xMidYMid meet"><g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)" stroke="none"><path d="M2325 5109 c-486 -50 -924 -220 -1315 -512 -122 -92 -395 -365 -487 -487 -269 -361 -437 -766 -499 -1205 -26 -180 -26 -510 0 -690 39 -278 120 -539 242 -784 129 -259 254 -438 449 -639 221 -229 439 -390 710 -523 260 -127 483 -198 760 -241 201 -31 550 -31 750 0 277 43 513 118 754 238 280 139 449 261 676 489 228 227 350 396 489 676 120 240 204 512 243 784 24 171 24 516 -1 690 -39 273 -117 531 -236 773 -135 276 -266 458 -495 687 -233 233 -400 353 -690 495 -245 120 -469 190 -738 231 -153 23 -473 33 -612 18z m595 -1004 c412 -92 746 -319 972 -660 392 -592 323 -1380 -166 -1892 -460 -483 -1156 -618 -1755 -342 -46 22 -91 39 -100 39 -9 0 -191 -47 -406 -104 -214 -57 -391 -102 -393 -101 -1 1 46 180 106 398 l109 396 -18 28 c-11 15 -40 77 -65 137 -96 227 -138 487 -116 724 25 265 101 489 240 702 237 366 605 609 1042 686 105 18 448 12 550 -11z"/><path d="M2386 3854 c-106 -19 -236 -64 -343 -118 -487 -245 -768 -780 -688 -1311 27 -179 79 -326 166 -475 l45 -75 -63 -229 c-34 -126 -61 -231 -59 -233 1 -2 108 25 237 58 l234 62 77 -42 c106 -57 242 -108 357 -134 78 -17 128 -21 271 -21 156 0 186 3 282 26 498 125 854 493 959 991 28 131 31 350 5 479 -50 261 -163 473 -351 664 -190 192 -420 313 -682 359 -107 19 -340 18 -447 -1z m-183 -568 c21 -23 157 -339 157 -365 0 -21 -26 -64 -79 -130 -28 -35 -51 -70 -51 -79 0 -28 108 -177 184 -253 88 -88 184 -155 290 -205 108 -49 114 -48 188 43 96 119 103 125 135 117 16 -4 102 -44 193 -88 l165 -81 -1 -70 c-1 -123 -55 -202 -182 -267 -60 -30 -75 -33 -173 -36 -100 -4 -113 -2 -215 32 -146 49 -310 132 -414 210 -173 130 -391 381 -485 559 -63 119 -78 180 -73 296 4 110 27 171 95 257 53 65 90 83 176 84 59 0 71 -3 90 -24z"/></g></svg></a>
+                <a href="#"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="512.000000pt" height="512.000000pt" viewBox="0 0 512.000000 512.000000" preserveAspectRatio="xMidYMid meet"><g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)" stroke="none"><path d="M2325 5109 c-486 -50 -924 -220 -1315 -512 -122 -92 -395 -365 -487-487 -269 -361 -437 -766 -499 -1205 -26 -180 -26 -510 0 -690 39 -278 120-539 242 -784 129 -259 254 -438 449 -639 221 -229 439 -390 710 -523 260 -127 483 -198 760 -241 201 -31 550 -31 750 0 277 43 513 118 754 238 280 139 449 261 676 489 228 227 350 396 489 676 120 240 204 512 243 784 24 171 24 516 -1 690 -39 273 -117 531 -236 773 -135 276 -266 458 -495 687 -233 233 -400 353 -690 495 -245 120 -469 190 -738 231 -153 23 -473 33 -612 18z m847 -1089 c157 -11 244 -28 347 -66 198 -73 366 -244 439 -447 60 -166 64 -217 69 -824 7 -741 -6 -919 -81 -1103 -71 -175 -232 -335 -408 -407 -171 -69 -332 -83 -978 -83 -659 0 -812 14 -991 89 -182 77 -338 243 -407 434 -65 178 -67 211 -67 947 0 605 2 674 19 765 35 191 99 325 209 442 145 154 334 233 602 252 163 12 1089 12 1247 1z"/><path d="M1880 3749 c-272 -33 -439 -176 -498 -429 -15 -67 -17 -145 -17 -760 0 -615 2 -693 17 -760 52 -223 195 -366 418 -418 67 -15 145 -17 760 -17 615 0 693 2 760 17 223 52 366 195 418 418 15 67 17 145 17 760 0 615 -2 693 -17 760 -40 170 -138 302 -272 366 -141 67 -140 67 -861 70 -357 1 -684 -2 -725 -7z m1527 -240 c90 -34 137 -143 99 -232 -18 -44 -78 -95 -121 -103 -173 -32 -285 163 -167 290 49 52 124 70 189 45z m-681 -214 c200 -45 381 -177 487 -356 131 -222 131 -533 0 -759 -49 -83 -190 -224 -273 -273 -227 -132 -533 -132 -760 0 -84 49 -225 190 -273 273 -132 228 -132 533 0 760 49 83 190 224 273 273 160 93 360 123 546 82z"/><path d="M2446 3034 c-243 -59 -406 -300 -368 -546 40 -262 289 -448 549 -411 267 39 456 291 415 555 -43 282 -320 469 -596 402z"/></g></svg></a>
+                <a href="#"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="512.000000pt" height="512.000000pt" viewBox="0 0 512.000000 512.000000" preserveAspectRatio="xMidYMid meet"><g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)" stroke="none"><path d="M2325 5109 c-499 -51 -945 -229 -1345 -537 -124 -96 -363 -340 -462 -472 -261 -349 -423 -735 -490 -1165 -31 -200 -31 -550 0 -750 87 -556 329 -1034 726 -1430 444 -443 975 -690 1607 -746 337 -30 750 26 1078 147 253 93 554 268 761 442 760 637 1086 1656 835 2609 -47 180 -91 297 -180 478 -131 268 -269 460 -489 681 -221 220 -412 357 -681 489 -251 124 -480 195 -748 236 -153 23 -473 33 -612 18z m915 -1409 l0 -260 -185 0 c-275 0 -275 0 -275 -269 l0 -171 235 0 c129 0 235 -4 235 -9 0 -5 -11 -116 -25 -247 -14 -132 -25 -247 -25 -256 0 -17 -17 -18 -210 -18 l-210 0 0 -745 0 -745 -307 2 -308 3 -3 743 -2 742 -145 0 -145 0 0 265 0 265 145 0 145 0 0 183 c0 100 5 214 10 252 41 291 216 473 495 514 33 5 176 9 318 10 l257 1 0 -260z"/></g></svg></a>
+            </div>
+        </div>
+        <!-- Bottom Bar -->
+        <nav>
+            <ul>
+                <li><a href="#"><span class="material-symbols-outlined">favorite</span><span class="category">Paquetes</span></a></li>
+                <li><a href="#"><span class="material-symbols-outlined">star</span><span class="category">Experiencias</span></a></li>
+                <li><a href="#"><span class="material-symbols-outlined">bed</span><span class="category">Alojamientos</span></a></li>
+                <li><a href="#"><span class="material-symbols-outlined">local_activity</span><span class="category">Shows</span></a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Main content -->
+    <div class="main-content">
+        <!-- Gallery -->
+        <div class="gallery">
+            <div class="gallery-item large">
+                <img src="imagen-portada.jpg" alt="imagen de destino 1">
+            </div>
+            <div class="gallery-item small">
+                <img src="imagen4.jpg" alt="imagen de destino 2">
+            </div>
+            <div class="gallery-item small">
+                <img src="imagen6.jpg" alt="imagen de destino 3">
+            </div>
+            <div class="gallery-item small">
+                <img src="imagen7.jpg" alt="imagen de destino 4">
+            </div>
+            <div class="gallery-item small">
+                <img src="imagen8.jpg" alt="imagen de destino 5">
+            </div>
+            <div class="gallery-item small">
+                <img src="imagen.jpg" alt="imagen de destino 6">
+            </div>
+            <div class="gallery-item small">
+                <img src="imagen1.jpg" alt="imagen de destino 7">
+            </div>
+            <div class="gallery-item small">
+                <img src="imagen2.jpg" alt="imagen de destino 8">
+            </div>
+            <div class="gallery-item small">
+                <img src="imagen3.jpg" alt="imagen de destino 9">
+            </div>
+            <div class="gallery-item small">
+                <img src="imagen5.jpg" alt="imagen de destino 10">
+            </div>
+        </div>
+        <div id="lightbox" class="lightbox">
+            <span class="close">&times;</span>
+            <img class="lightbox-img" id="lightbox-img">
+            <a class="prev" onclick="changeImage(-1)">&#10094;</a>
+            <a class="next" onclick="changeImage(1)">&#10095;</a>
+        </div>
+        <!-- Article Title -->
+        <div class="article-title">
+            <span class="material-symbols-outlined">favorite</span>
+            <h1>Conocé Misiones en siete días</h1>
+        </div>
+            <!-- Article Paragraph -->
+        <div class="article-paragraph">
+            <p class="text">La provincia de Misiones, en el noreste de Argentina, es famosa por albergar una de las maravillas naturales del mundo: las Cataratas del Iguazú. Ubicadas en el Parque Nacional Iguazú, estas cataratas son una impresionante red de cascadas que se extienden a lo largo de casi tres kilómetros, rodeadas de una exuberante selva tropical. El circuito superior, el inferior y la espectacular Garganta del Diablo son recorridos imperdibles para los visitantes que desean experimentar de cerca la magnitud y la belleza de este fenómeno natural.
+            <br>
+            <br>
+            Otra joya de Misiones es la Ruta de las Misiones Jesuíticas, que recorre antiguas reducciones fundadas por los jesuitas en el siglo XVII. Entre las más destacadas se encuentran San Ignacio Miní, Santa Ana y Nuestra Señora de Loreto, todas declaradas Patrimonio de la Humanidad por la UNESCO. Estos sitios arqueológicos ofrecen una fascinante visión de la historia y la cultura de las misiones, con sus estructuras bien conservadas y museos que relatan la vida en estas comunidades.
+            <br>
+            <br>
+            El Parque Nacional Moconá, con sus saltos de agua longitudinales, es otro destino natural de gran atractivo. El Salto del Moconá, una impresionante falla geológica en el río Uruguay, crea una serie de cascadas que fluyen paralelas al curso del río, ofreciendo un espectáculo único en el mundo. Los visitantes pueden disfrutar de actividades como paseos en lancha, senderismo y avistamiento de fauna y flora autóctonas, todo en un entorno de gran biodiversidad y belleza escénica.
+            <br>
+            <br>
+            Por último, la Selva Misionera, también conocida como la Selva Paranaense, es un vasto ecosistema de gran importancia ecológica. Este hábitat alberga una rica variedad de flora y fauna, incluyendo especies en peligro de extinción como el yaguareté. Las reservas naturales, como la Reserva de Biosfera Yabotí, ofrecen la oportunidad de explorar esta densa selva mediante caminatas guiadas y excursiones en 4x4, brindando a los turistas una experiencia inmersiva en uno de los rincones más biodiversos de Argentina.</p>
+            <button class="see-more">Ver más texto</button>
+        </div>
+        <!-- Included services -->
+        <div class="included-services">
+            <ul class="included-services-group" id="includedServices">
+                <li class="included-services-unit"><span class="material-symbols-outlined">flight</span>Aéreos</li>
+                <li class="included-services-unit"><span class="material-symbols-outlined">lunch_dining</span>Almuerzo</li>
+                <li class="included-services-unit"><span class="material-symbols-outlined">spa</span>Spa</li>
+                <li class="included-services-unit"><span class="material-symbols-outlined">local_cafe</span>Desayuno</li>
+                <li class="included-services-unit"><span class="material-symbols-outlined">tour</span>Excursiones</li>
+                <li class="included-services-unit"><span class="material-symbols-outlined">local_laundry_service</span>Lavandería</li>
+                <li class="included-services-unit"><span class="material-symbols-outlined">fitness_center</span>Gimnasio</li>
+                <li class="included-services-unit"><span class="material-symbols-outlined">pool</span>Piscina</li>
+                <li class="included-services-unit"><span class="material-symbols-outlined">room_service</span>Conserje</li>
+                <li class="included-services-unit"><span class="material-symbols-outlined">garage</span>Estacionamiento</li>
+                <li class="included-services-unit"><span class="material-symbols-outlined">golf_course</span>Golf</li>
+                <li class="included-services-unit"><span class="material-symbols-outlined">kayaking</span>Kayak</li>
+            </ul>
+            <div class="button-container">
+                <button id="showMoreBtn">Ver más servicios incluidos</button>
+                <button id="showLessBtn" style="display: none;">Ver menos</button>
+            </div>
+        </div>
+        <!-- Map -->
+        <div class="map-container" id="mapContainer">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d920611.7198381304!2d-54.450001!3d-25.666669!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94f6ea6068b8edff%3A0xa7f4a990535e7279!2sCataratas%20del%20Iguaz%C3%BA%2C%20Misiones!5e0!3m2!1ses!2sar!4v1718901725747!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="button-container">
+            <button class="btn" id="toggleMapBtn">Ver más mapa</button>
+        </div>
+        <!-- Whatsapp Button -->
+        <a href="https://wa.me/1234567890" class="whatsapp-button">Contactar por WhatsApp</a>
+        <!-- Contact form -->
+        <form class="contact-form">
+            <fieldset>
+                <legend>Reciba un presupuesto personalizado</legend>
+                <label>Paquete
+                <textarea id="service-title" readonly></textarea>
+                </label>
+                <label>Nombre
+                <input type="text" required>
+                </label>
+                <label>Correo electrónico
+                <input type="email" required>
+                </label>
+                <div class="amount">
+                    <label>Cantidad de adultos
+                    <input type="number" required>
+                    </label>
+                    <label> Cantidad de menores
+                    <input type="number" required>
+                    </label>
+                </div>
+                <div class="date">
+                    <label>Desde
+                    <input type="date" required>
+                    </label>
+                    <label>Hasta
+                    <input type="date" required>
+                    </label>
+                </div>
+                <button type="submit">Enviar</button>
+            </fieldset>
+        </form>
+    </div>
+    <!-- Footer -->
+    <footer>
+        <div class="footer-nav">
+            <nav>
+                <ul>
+                    <h2>Travel Web</h2>
+                    <li><a href="#">Sobre nosotros</a></li>
+                    <li><a href="#">Misión</a></li>
+                    <li><a href="#">Visión</a></li>
+                    <li><a href="#">Política</a></li>
+                </ul>
+                <ul>
+                    <h2>Categorías</h2>
+                    <li><a href="#">Paquetes</a></li>
+                    <li><a href="#">Experiencias</a></li>
+                    <li><a href="#">Alojamientos</a></li>
+                    <li><a href="#">Shows</a></li>
+                </ul>
+                <ul>
+                    <h2>Contacto</h2>
+                    <li><a href="#">Email</a></li>
+                    <li><a href="#">Whatsapp</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Facebook</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
